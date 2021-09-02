@@ -1,0 +1,175 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+	  "lang": "fr",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Bonjour",
+        "Bonsoir"
+      ],
+      "responses": [
+        "Salut :-)",
+        "Bonjour, merci pour votre visite",
+        "Salut, que puis-je faire pour vous ?",
+        "Bonjour, comment puis-je vous aider ?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+	  "lang": "fr",
+      "patterns": ["Bye", "A plus tard", "Au revoir","A bientot"],
+      "responses": [
+        "A plus tard, merci de votre visite",
+        "Bonne journée",
+        "Au revoir! Revenez bientôt."
+      ]
+    },
+    {
+      "tag": "thanks",
+	  "lang": "fr",
+      "patterns": ["Merci", "C'etait tres utile", "Merci beaucoup !" , " Un grand merci", "Merci infiniment." , "Mille mercis.", "Merci bien"],
+      "responses": ["Heureux de vous aider !", "À tout moment ! ","Avec plaisir"]
+    },
+    {
+      "tag": "items",
+	  "lang": "fr",
+      "patterns": [
+        "Qu est ce que vous vendez?",
+        "Qu est ce que vous proposez comme produits?",
+        "Quels types d'articles y a-t-il ?",
+        "Que vendez-vous?"
+      ],
+      "responses": [
+        "Nous vendons du café et du thé",
+        "Nous vendons du café et du thé"
+      ]
+    },
+    {
+      "tag": "payments",
+	  "lang": "fr",
+      "patterns": [
+        "Prenez-vous les cartes de crédit?",
+        "Acceptez-vous MasterCard?",
+        "Puis-je payer avec Paypal ?",
+        "Vous acceptez que l'espèces?"
+      ],
+      "responses": [
+        "Nous acceptons VISA, Mastercard et Paypal",
+        "Nous acceptons la plupart des principales cartes de crédit et Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+	  "lang": "fr",
+      "patterns": [
+        "Combien de temps prend la livraison?",
+        "Quand est-ce que je reçois ma livraison ?"
+      ],
+      "responses": [
+        "La livraison prend 30-40 minutes"
+      ]
+    },
+    {
+      "tag": "funny",
+	  "lang": "fr",
+      "patterns": [
+        "Raconte moi une blague!",
+        "Dis-moi quelque chose d'amusant !",
+        "Tu connais une blague ?"
+      ],
+      "responses": [
+        "Comment appelle-t-on un alligator qui enquête?Un investi-gator",
+        "Si une horloge sonne 13 fois, quelle heure est-il?Il est l’heure d’acheter une nouvelle horloge!",
+        "Pourquoi un ordinateur voudrait-il se gratter?Parce qu’il a des puces!"
+      ]
+    },
+	{
+      "tag": "greeting",
+	  "lang": "en",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi",
+        "How are you doing?",
+        "Hello, how can I help you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+	  "lang": "en",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+	  "lang": "en",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+	  "lang": "en",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+	  "lang": "en",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+	  "lang": "en",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+	  "lang": "en",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
